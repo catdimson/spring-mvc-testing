@@ -51,11 +51,20 @@
       <version>5.3.8</version>
     </dependency>
 
-
+    <!--шаблонизатор-->
     <dependency>
       <groupId>org.thymeleaf</groupId>
       <artifactId>thymeleaf-spring5</artifactId>
       <version>3.0.11.RELEASE</version>
+    </dependency>
+
+    <!--класс AbstractAnnotationConfigDispatcherServletInitializer из SpringMVCDispatcherInitializer ис
+    пользует данную зависимость-->
+    <dependency>
+      <groupId>javax.servlet</groupId>
+      <artifactId>javax.servlet-api</artifactId>
+      <version>4.0.1</version>
+      <scope>provided</scope>
     </dependency>
 
 
