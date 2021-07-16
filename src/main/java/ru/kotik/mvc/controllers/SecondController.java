@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.UnsupportedEncodingException;
 
 @Controller
-@RequestMapping(path = "/end")
+@RequestMapping(path = "/end", produces = "text/plain;charset=UTF-8")
 public class SecondController {
 
     @GetMapping(path = "/exit")
